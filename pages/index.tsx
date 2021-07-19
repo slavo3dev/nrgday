@@ -19,6 +19,7 @@ export default function Home({
   return (
     <div>
       <h1>NRG Day</h1>
+      {JSON.stringify(products, null, 4)}
     </div>
   );
 }
